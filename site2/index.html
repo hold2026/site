@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dog Facts — Outils Atelier</title>
+  <style>
+    body { font-family: sans-serif; max-width: 800px; margin: 2em auto; padding: 1em; }
+    .tool { border: 1px solid #ccc; padding: 2em; border-radius: 8px; background: #f9f9f9; }
+    button { padding: 0.8em; background: #0066cc; color: white; border: none; border-radius: 4px; cursor: pointer; }
+    button:hover { background: #0052a3; }
+    .result { margin-top: 1.5em; padding: 1em; background: white; border-left: 4px solid #0066cc; }
+    .meta { font-size: 0.85em; color: #666; margin-top: 2em; border-top: 1px solid #ddd; padding-top: 1em; }
+  </style>
+</head>
+<body>
+  <h1>Dog Facts</h1>
+  <p>Découvrez des faits amusants sur les chiens, mis à jour à chaque requête.</p>
+  
+  <div class="tool">
+    <button onclick="fetchFact()">Obtenir un fait aléatoire</button>
+    <div id="fact-container" class="result" style="display:none;">
+      <p id="fact-text"></p>
+    </div>
+    <div id="loading" style="display:none; color:#666;">Chargement...</div>
+  </div>
+
+  <div class="meta">
+    <p><strong>Source :</strong> <a href="https://dog-api.kinduff.com/" target="_blank">dog-api.kinduff.com</a> — API gratuite, données publiques.</p>
+    <p><strong>Étiquette :</strong> Cet outil utilise du contenu généré en partie avec assistance IA pour l'interface.</p>
+    <p><strong>Lien utile :</strong> <a href="https://hold2026.github.io/site/">Retour à l'accueil</a></p>
+  </div>
+
+  <script>
+    async function fetchFact() {
+      const btn = document.querySelector('button');
+      const loading = document.getElementById('loading');
+      const container = document.getElementById('fact-container');
+      const text = document.getElementById('fact-text');
+      
+      btn.disabled = true;
+      loading.style.display = 'block';
+      container.style.display = 'none';
+      
+      try {
+        const response = await fetch('https://dog-api.kinduff.com/api/facts?number=1');
+        const data = await response.json();
+        if (data.facts && data.facts.length > 0) {
+          text.textContent = data.facts[0];
+          container.style.display = 'block';
+        } else {
+          text.textContent = 'Impossible de charger. Vérifiez votre connexion.';
+          container.style.display = 'block';
+        }
+      } catch (error) {
+        text.textContent = 'Erreur API : ' + error.message;
+        container.style.display = 'block';
+      } finally {
+        loading.style.display = 'none';
+        btn.disabled = false;
+      }
+    }
+  </script>
+  <script data-goatcounter="https://hold2026.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>
