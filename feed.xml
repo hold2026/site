@@ -1,28 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
-  <channel>
-    <title>Holding 2026 - Outils Web</title>
-    <link>https://hold2026.github.io/site/</link>
-    <description>Outils web statiques avec données vérifiées</description>
-    <language>fr-fr</language>
-    <lastBuildDate>Mon, 13 Oct 2026 06:11:00 GMT</lastBuildDate>
-    <item>
-      <title>Économie mondiale - Top 15 PIB</title>
-      <link>https://hold2026.github.io/site/economie/pib-mondial-top15.html</link>
-      <description>Données World Bank - 15 pays majeurs</description>
-      <pubDate>Mon, 13 Oct 2026 06:11:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>World Bank - Pays majeurs</title>
-      <link>https://hold2026.github.io/site/world-bank-pays/index.html</link>
-      <description>Données ouvertes World Bank - faits vérifiés</description>
-      <pubDate>Mon, 13 Oct 2026 06:11:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Dog Facts</title>
-      <link>https://hold2026.github.io/site/site-2-dog-facts/index.html</link>
-      <description>Faits amusants sur les chiens</description>
-      <pubDate>Mon, 13 Oct 2026 06:11:00 GMT</pubDate>
-    </item>
-  </channel>
+<channel>
+<title>Holding 2026 — Données Économiques Mondiales</title>
+<link>https://hold2026.github.io/site/</link>
+<description>Statistiques économiques vérifiées : PIB par pays, données Banque Mondiale</description>
+<language>fr</language>
+<lastBuildDate>Wed, 15 Oct 2026 13:23:00 GMT</lastBuildDate>
+<item>
+<title>PIB France 2023 — Données Banque Mondiale</title>
+<link>https://hold2026.github.io/site/worldbank-france.html</link>
+<description>Produit Intérieur Brut France 2023 : 3.03 trillions USD. Source : Banque Mondiale API publique.</description>
+<pubDate>Tue, 13 Oct 2026 09:00:00 GMT</pubDate>
+<guid>https://hold2026.github.io/site/worldbank-france.html</guid>
+</item>
+<item>
+<title>PIB États-Unis 2023 — Données Banque Mondiale</title>
+<link>https://hold2026.github.io/site/worldbank-usa.html</link>
+<description>Produit Intérieur Brut États-Unis 2023 : 27.36 trillions USD. Source : Banque Mondiale API publique.</description>
+<pubDate>Tue, 13 Oct 2026 09:00:00 GMT</pubDate>
+<guid>https://hold2026.github.io/site/worldbank-usa.html</guid>
+</item>
+<item>
+<title>PIB Allemagne 2023 — Données Banque Mondiale</title>
+<link>https://hold2026.github.io/site/worldbank-allemagne.html</link>
+<description>Produit Intérieur Brut Allemagne 2023 : 1.39 trillions USD. Source : Banque Mondiale API publique.</description>
+<pubDate>Tue, 13 Oct 2026 09:00:00 GMT</pubDate>
+<guid>https://hold2026.github.io/site/worldbank-allemagne.html</guid>
+</item>
+<item>
+<title>PIB Japon 2023 — Données Banque Mondiale</title>
+<link>https://hold2026.github.io/site/worldbank-japon.html</link>
+<description>Produit Intérieur Brut Japon 2023 : 1.10 trillions USD. Source : Banque Mondiale API publique.</description>
+<pubDate>Tue, 13 Oct 2026 09:00:00 GMT</pubDate>
+<guid>https://hold2026.github.io/site/worldbank-japon.html</guid>
+</item>
+<item>
+<title>PIB Inde 2023 — Données Banque Mondiale</title>
+<link>https://hold2026.github.io/site/worldbank-inde.html</link>
+<description>Produit Intérieur Brut Inde 2023 : 3.39 trillions USD. Source : Banque Mondiale API publique.</description>
+<pubDate>Tue, 13 Oct 2026 09:00:00 GMT</pubDate>
+<guid>https://hold2026.github.io/site/worldbank-inde.html</guid>
+</item>
+</channel>
 </rss>
