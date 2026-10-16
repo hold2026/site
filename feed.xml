@@ -1,45 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
 <channel>
-<title>Holding 2026 — Données Économiques Mondiales</title>
-<link>https://hold2026.github.io/site/</link>
-<description>Statistiques économiques vérifiées : PIB par pays, données Banque Mondiale</description>
-<language>fr</language>
-<lastBuildDate>Wed, 15 Oct 2026 13:23:00 GMT</lastBuildDate>
-<item>
-<title>PIB France 2023 — Données Banque Mondiale</title>
-<link>https://hold2026.github.io/site/worldbank-france.html</link>
-<description>Produit Intérieur Brut France 2023 : 3.03 trillions USD. Source : Banque Mondiale API publique.</description>
-<pubDate>Tue, 13 Oct 2026 09:00:00 GMT</pubDate>
-<guid>https://hold2026.github.io/site/worldbank-france.html</guid>
-</item>
-<item>
-<title>PIB États-Unis 2023 — Données Banque Mondiale</title>
-<link>https://hold2026.github.io/site/worldbank-usa.html</link>
-<description>Produit Intérieur Brut États-Unis 2023 : 27.36 trillions USD. Source : Banque Mondiale API publique.</description>
-<pubDate>Tue, 13 Oct 2026 09:00:00 GMT</pubDate>
-<guid>https://hold2026.github.io/site/worldbank-usa.html</guid>
-</item>
-<item>
-<title>PIB Allemagne 2023 — Données Banque Mondiale</title>
-<link>https://hold2026.github.io/site/worldbank-allemagne.html</link>
-<description>Produit Intérieur Brut Allemagne 2023 : 1.39 trillions USD. Source : Banque Mondiale API publique.</description>
-<pubDate>Tue, 13 Oct 2026 09:00:00 GMT</pubDate>
-<guid>https://hold2026.github.io/site/worldbank-allemagne.html</guid>
-</item>
-<item>
-<title>PIB Japon 2023 — Données Banque Mondiale</title>
-<link>https://hold2026.github.io/site/worldbank-japon.html</link>
-<description>Produit Intérieur Brut Japon 2023 : 1.10 trillions USD. Source : Banque Mondiale API publique.</description>
-<pubDate>Tue, 13 Oct 2026 09:00:00 GMT</pubDate>
-<guid>https://hold2026.github.io/site/worldbank-japon.html</guid>
-</item>
-<item>
-<title>PIB Inde 2023 — Données Banque Mondiale</title>
-<link>https://hold2026.github.io/site/worldbank-inde.html</link>
-<description>Produit Intérieur Brut Inde 2023 : 3.39 trillions USD. Source : Banque Mondiale API publique.</description>
-<pubDate>Tue, 13 Oct 2026 09:00:00 GMT</pubDate>
-<guid>https://hold2026.github.io/site/worldbank-inde.html</guid>
-</item>
+<title>Données économiques mondiales — Hold2026</title>
+<link>https://hold2026.github.io/site</link>
+<description>Population, PIB et exports par pays (WorldBank)</description>
+<lastBuildDate>Wed, 16 Oct 2026 14:33:00 GMT</lastBuildDate>
+<item><title>Population mondiale 2025 — Chine, États-Unis, Inde</title><link>https://hold2026.github.io/site/economie/population-mondiale-par-pays.html</link><description>Données WorldBank : population totale par pays (Chine 1.4B, US 341M, Japon 123M, France 68M, Allemagne 83M)</description><pubDate>Wed, 16 Oct 2026 14:00:00 GMT</pubDate></item>
+<item><title>PIB mondial 2025 — Top 5 économies</title><link>https://hold2026.github.io/site/economie/pib-mondial-top15.html</link><description>WorldBank : PIB courant USD — États-Unis 30.77T$, Chine 19.5T$, Allemagne 5.05T$, Japon 4.44T$, France 3.37T$</description><pubDate>Wed, 16 Oct 2026 14:00:00 GMT</pubDate></item>
+<item><title>Exports mondiaux 2025 — Commerce international</title><link>https://hold2026.github.io/site/economie/commerce-international-exports.html</link><description>Exports de biens et services USD — Chine 4.1T$, Allemagne 2.04T$, France 1.12T$</description><pubDate>Wed, 16 Oct 2026 14:00:00 GMT</pubDate></item>
+<item><title>Site 2 — Données économiques WorldBank</title><link>https://hold2026.github.io/site/world-bank-pays/index.html</link><description>Comparateur interactif pays : population, PIB, exports</description><pubDate>Wed, 16 Oct 2026 13:00:00 GMT</pubDate></item>
+<item><title>Site 1 Index — Outils statiques</title><link>https://hold2026.github.io/site/index.html</link><description>Accueil site 1 — Pages économiques et outils gratuits vérifiés</description><pubDate>Wed, 16 Oct 2026 12:00:00 GMT</pubDate></item>
 </channel>
 </rss>
